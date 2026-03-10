@@ -1,0 +1,98 @@
+{
+  "militia": {
+    "age": 1,
+    "hp": 100,
+    "attack": 100,
+    "defense": 100,
+    "movement": 7,
+    "sight": 7,
+    "range": 1,
+    "attack_bonus": {"buildings": 1.33, "siege": 1.33},
+    "special_abilities": [],
+    "cost": {"food": 75, "gold": 25}
+  },
+  "men-at-arms": {
+    "age": 2,
+    "hp": 100,
+    "attack": 150,
+    "defense": 150,
+    "movement": 7,
+    "sight": 7,
+    "range": 1,
+    "attack_bonus": {"buildings": 1.33, "siege": 1.33},
+    "special_abilities": [],
+    "cost": {"food": 95, "gold": 30}
+  },
+  "spearman": {
+    "age": 2,
+    "hp": 100,
+    "attack": 100,
+    "defense": 150,
+    "movement": 7,
+    "sight": 7,
+    "range": 1,
+    "attack_bonus": {"buildings": 1.33, "siege": 1.33},
+    "special_abilities": {"Anti_Cavalry": {"attack_mult": 1.83, "defense_mult": 1.83}, "First_Strike": true},
+    "cost": {"food": 115, "gold": 40}
+  },
+  "longswordsman": {
+    "age": 3,
+    "hp": 100,
+    "attack": 200,
+    "defense": 200,
+    "movement": 7,
+    "sight": 7,
+    "range": 1,
+    "attack_bonus": {"buildings": 1.33, "siege": 1.33},
+    "special_abilities": [],
+    "cost": {"food": 130, "gold": 45}
+  },
+  "pikeman": {
+    "age": 3,
+    "hp": 100,
+    "attack": 150,
+    "defense": 200,
+    "movement": 7,
+    "sight": 7,
+    "range": 1,
+    "attack_bonus": {"buildings": 1.33, "siege": 1.33},
+    "special_abilities": {"Anti_Cavalry": {"attack_mult": 1.83, "defense_mult": 1.83}, "First_Strike": true},
+    "cost": {"food": 160, "gold": 55}
+  },
+  "two-handed_swordsman": {
+    "age": 4,
+    "hp": 100,
+    "attack": 250,
+    "defense": 250,
+    "movement": 7,
+    "sight": 7,
+    "range": 1,
+    "attack_bonus": {"buildings": 1.33, "siege": 1.33},
+    "special_abilities": [],
+    "cost": {"food": 175, "gold": 50}
+  },
+  "elite_pikeman": {
+    "age": 4,
+    "hp": 100,
+    "attack": 200,
+    "defense": 250,
+    "movement": 7,
+    "sight": 7,
+    "range": 1,
+    "attack_bonus": {"buildings": 1.33, "siege": 1.33},
+    "special_abilities": {"Anti_Cavalry": {"attack_mult": 1.83, "defense_mult": 1.83}, "First_Strike": true},
+    "cost": {"food": 215, "gold": 60}
+  },
+  "champion": {
+    "age": 4,
+    "hp": 100,
+    "attack": 300,
+    "defense": 300,
+    "movement": 7,
+    "sight": 7,
+    "range": 1,
+    "attack_bonus": {"buildings": 1.33, "siege": 1.33},
+    "special_abilities": [],
+    "cost": {"food": 235, "gold": 70}
+  }
+}

@@ -1,4 +1,15 @@
 {
-    "wheat": "233E0C4",   
-    "gold": "233E0BC"
+    "gold": "233E0BC",
+    "wheat": "233E0C4",
+
+    "daily_gold_gain": "0234F484",
+    "gold_laptop": "0234F488",
+    "daily_wheat_gain": "0234F48C",
+    "wheat_laptop": "0234F490", 
+    
+    "genghis_hp": "022ED450",
+
+    "men_at_arms1_hp": "02293B98",
+
+    "light_cavalry1": "02287F30"
 }

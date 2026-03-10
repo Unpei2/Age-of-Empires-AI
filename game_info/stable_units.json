@@ -1,0 +1,102 @@
+{
+  "scout_cavalry": {
+    "age": 1,
+    "hp": 100,
+    "attack": 100,
+    "defense": 100,
+    "movement": 12,
+    "sight": 10,
+    "range": 1,
+    "attack_bonus": {"buildings": 0.5, "infantry": 1.33, "ranged": 1.33},
+    "special_abilities": {
+      "scout": {"terrain_ignore_cost": 2}
+    },
+    "cost": {"food": 110, "gold": 20}
+  },
+  "light_cavalry": {
+    "age": 2,
+    "hp": 100,
+    "attack": 150,
+    "defense": 150,
+    "movement": 7,
+    "sight": 7,
+    "range": 1,
+    "attack_bonus": {"buildings": 0.5, "infantry": 1.33, "ranged": 1.33},
+    "special_abilities": {
+      "plains_charge": {"attack_multiplier": 1.33, "terrain": ["plains", "plains_road"], "cancel_if_opponent": true}
+    },
+    "cost": {"food": 140, "gold": 35}
+  },
+  "knight": {
+    "age": 3,
+    "hp": 100,
+    "attack": 200,
+    "defense": 200,
+    "movement": 10,
+    "sight": 7,
+    "range": 1,
+    "attack_bonus": {"buildings": 0.5, "infantry": 1.33, "ranged": 1.33},
+    "special_abilities": {
+      "plains_charge": {"attack_multiplier": 1.33, "terrain": ["plains", "plains_road"], "cancel_if_opponent": true}
+    },
+    "cost": {"food": 190, "gold": 45}
+  },
+  "cavalier": {
+    "age": 4,
+    "hp": 100,
+    "attack": 250,
+    "defense": 250,
+    "movement": 10,
+    "sight": 7,
+    "range": 1,
+    "attack_bonus": {"buildings": 0.5, "infantry": 1.33, "ranged": 1.33},
+    "special_abilities": {
+      "plains_charge": {"attack_multiplier": 1.33, "terrain": ["plains", "plains_road"], "cancel_if_opponent": true}
+    },
+    "cost": {"food": 265, "gold": 70}
+  },
+  "camel": {
+    "age": 3,
+    "hp": 100,
+    "attack": 200,
+    "defense": 200,
+    "movement": 10,
+    "sight": 7,
+    "range": 1,
+    "attack_bonus": {"buildings": 0.5, "infantry": 1.33, "ranged": 1.33},
+    "special_abilities": {
+      "desert_charge": {"attack_multiplier": 1.33, "terrain": ["desert", "desert_road"], "cancel_if_opponent": true},
+      "scares_horses": {"damage_multiplier": 1.33, "target_type": "horse_cavalry"}
+    },
+    "cost": {"food": 220, "gold": 70}
+  },
+  "heavy_camel": {
+    "age": 4,
+    "hp": 100,
+    "attack": 250,
+    "defense": 250,
+    "movement": 10,
+    "sight": 7,
+    "range": 1,
+    "attack_bonus": {"buildings": 0.5, "infantry": 1.33, "ranged": 1.33},
+    "special_abilities": {
+      "desert_charge": {"attack_multiplier": 1.33, "terrain": ["desert", "desert_road"], "cancel_if_opponent": true},
+      "scares_horses": {"damage_multiplier": 1.33, "target_type": "horse_cavalry"}
+    },
+    "cost": {"food": 280, "gold": 75}
+  },
+  "paladin": {
+    "age": 4,
+    "hp": 100,
+    "attack": 300,
+    "defense": 300,
+    "movement": 10,
+    "sight": 7,
+    "range": 1,
+    "attack_bonus": {"buildings": 0.5, "infantry": 1.33, "ranged": 1.33},
+    "special_abilities": {
+      "plains_charge": {"attack_multiplier": 1.33, "terrain": ["plains", "plains_road"], "cancel_if_opponent": true}
+    },
+    "cost": {"food": 335, "gold": 85}
+  }
+}
