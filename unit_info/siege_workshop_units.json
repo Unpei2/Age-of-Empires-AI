@@ -1,0 +1,50 @@
+{
+    "battering ram": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 3
+    },
+    "scorpion": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 3
+    },
+    "onager": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 3
+    },
+    "siege ram": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 4
+    },
+    "heavy scorpion": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 4
+    },
+    "bombard cannon": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 4
+    },
+    "heavy horse archer": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 4
+    },
+    "hand cannoneer": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 4
+    }
+}

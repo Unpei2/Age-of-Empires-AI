@@ -1,0 +1,62 @@
+{
+    "archer": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 2
+    },
+    "skirmisher": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 2
+    },
+    "elite skirmisher": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 3
+    },
+    "crossbowman": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 3
+    },
+    "horse archer": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 3
+    },
+    "elite archer": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 4
+    },
+    "expert skirmisher": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 4
+    },
+    "arbalest": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 4
+    },
+    "heavy horse archer": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 4
+    },
+    "hand cannoneer": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 4
+    }
+}

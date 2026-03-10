@@ -1,0 +1,20 @@
+{
+    "long swordsman": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 3
+    },
+    "two-handed swordsman": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 4
+    },
+    "trebuchet": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 4
+    }
+}

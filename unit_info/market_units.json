@@ -1,0 +1,74 @@
+{
+    "celtic woad raider": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 3
+    },
+    "viking berserker": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 3
+    },
+    "knight templar": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 3
+    },
+    "turkish janissary": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 3
+    },
+    "persian war elephant": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 3
+    },
+    "chinese chu ko nu": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 3
+    },
+    "elite woad raider": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 4
+    },
+    "elite berserker": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 4
+    },
+    "elite knight templar": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 4
+    },
+    "elite janissary": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 4
+    },
+    "elite war elephant": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 4
+    },
+    "elite chu ko nu": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 4
+    }
+}

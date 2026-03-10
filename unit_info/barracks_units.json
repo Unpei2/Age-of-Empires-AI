@@ -1,0 +1,50 @@
+{
+    "militia": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 1
+    },
+    "man-at-arms": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 2
+    },
+    "spearman": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 2
+    },
+    "long swordsman": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 3
+    },
+    "pikeman": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 3
+    },
+    "two-handed swordsman": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 4
+    },
+    "elite pikeman": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 4
+    },
+    "champion": {
+        "attack": -1,
+        "defense": -1,
+        "cost": {"food": -1, "wood": -1},
+        "age": 4
+    }
+}
