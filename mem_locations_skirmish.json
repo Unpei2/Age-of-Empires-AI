@@ -1,8 +1,13 @@
 {
+    "attacker_hp": "021C14B0",
+    "attacked_hp": "021C14B4",
+
     "gold_gain": "0233EC5C",
     "gold": "0233EC60",
     "wheat_gain": "0233EC64",
     "wheat": "0233EC68",
+
+
     "starting_militia": "022E5260",
     "genghis_hp": "022E4FF4",
 
@@ -13,16 +18,21 @@
     "other_y": "022E5028",
     "genghis_att": "022E4FFC",
     "genghis_def": "022E5000",
-
-    "genghis_y": 3,
-    "genghis_x": 17,
-
     "militia_x": "022E5214",
     "militia_y": "022E5218",
     
-    "attacker_hp": "021C14B0",
-    "attacked_hp": "021C14B4",
+    "villager1_x1": "022E5324",
+    "villager1_x2": "022E53A0",
+    "villager1_y1": "022E5328",
+    "villager1_y2": "022E53A4",
 
+    "villager1_actualx?": "02386E58",
+
+
+    "villager2_x1": "0226BE84",
+    "villager2_x2": "0226BF00",
+    "villager2_y1": "0226BE88",
+    "villager2_y2": "0226BF04",
 
     "saladin_hp": "022E4674"
 }

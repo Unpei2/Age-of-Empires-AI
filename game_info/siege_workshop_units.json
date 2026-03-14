@@ -1,50 +1,86 @@
 {
-    "battering ram": {
-        "attack": -1,
-        "defense": -1,
-        "cost": {"food": -1, "wood": -1},
-        "age": 3
-    },
-    "scorpion": {
-        "attack": -1,
-        "defense": -1,
-        "cost": {"food": -1, "wood": -1},
-        "age": 3
-    },
-    "onager": {
-        "attack": -1,
-        "defense": -1,
-        "cost": {"food": -1, "wood": -1},
-        "age": 3
-    },
-    "siege ram": {
-        "attack": -1,
-        "defense": -1,
-        "cost": {"food": -1, "wood": -1},
-        "age": 4
-    },
-    "heavy scorpion": {
-        "attack": -1,
-        "defense": -1,
-        "cost": {"food": -1, "wood": -1},
-        "age": 4
-    },
-    "bombard cannon": {
-        "attack": -1,
-        "defense": -1,
-        "cost": {"food": -1, "wood": -1},
-        "age": 4
-    },
-    "heavy horse archer": {
-        "attack": -1,
-        "defense": -1,
-        "cost": {"food": -1, "wood": -1},
-        "age": 4
-    },
-    "hand cannoneer": {
-        "attack": -1,
-        "defense": -1,
-        "cost": {"food": -1, "wood": -1},
-        "age": 4
-    }
+  "battering_ram": {
+    "age": 3,
+    "hp": 100,
+    "attack": 400,
+    "defense": 325,
+    "movement": 7,
+    "sight": 7,
+    "range": 1,
+    "attack_bonus": {"buildings": 1.5},
+    "special_abilities": ["buildings_only", "no_counter"],
+    "cost": {"food": 50, "gold": 155}
+  },
+  "siege_ram": {
+    "age": 4,
+    "hp": 100,
+    "attack": 500,
+    "defense": 375,
+    "movement": 7,
+    "sight": 7,
+    "range": 1,
+    "attack_bonus": {"buildings": 1.5},
+    "special_abilities": ["buildings_only", "no_counter"],
+    "cost": {"food": 70, "gold": 230}
+  },
+  "onager": {
+    "age": 3,
+    "hp": 100,
+    "attack": 275,
+    "defense": 275,
+    "movement": 7,
+    "sight": 7,
+    "range": 3,
+    "attack_bonus": {"buildings": 1.5},
+    "special_abilities": ["no_move_and_attack", "no_counter"],
+    "cost": {"food": 60, "gold": 180}
+  },
+  "trebuchet": {
+    "age": 4,
+    "hp": 100,
+    "attack": 375,
+    "defense": 350,
+    "movement": 7,
+    "sight": 7,
+    "range": 3,
+    "attack_bonus": {"buildings": 1.5},
+    "special_abilities": ["no_move_and_attack", "no_counter", "minimum_range"],
+    "cost": {"food": 75, "gold": 255}
+  },
+  "scorpion": {
+    "age": 3,
+    "hp": 100,
+    "attack": 350,
+    "defense": 250,
+    "movement": 7,
+    "sight": 7,
+    "range": 3,
+    "attack_bonus": {},
+    "special_abilities": ["units_only", "no_move_and_attack", "no_counter"],
+    "cost": {"food": 65, "gold": 190}
+  },
+  "heavy_scorpion": {
+    "age": 4,
+    "hp": 100,
+    "attack": 400,
+    "defense": 300,
+    "movement": 7,
+    "sight": 7,
+    "range": 3,
+    "attack_bonus": {},
+    "special_abilities": ["units_only", "no_move_and_attack", "no_counter"],
+    "cost": {"food": 80, "gold": 250}
+  },
+  "bombard_cannon": {
+    "age": 4,
+    "hp": 100,
+    "attack": 325,
+    "defense": 325,
+    "movement": 7,
+    "sight": 7,
+    "range": 3,
+    "attack_bonus": {"buildings": 1.5},
+    "special_abilities": ["no_move_and_attack", "no_counter"],
+    "cost": {"food": 70, "gold": 235}
+  }
 }

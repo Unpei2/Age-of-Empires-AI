@@ -1,0 +1,72 @@
+{
+  "richard_the_lionhearted": {
+    "faction": "britons",
+    "type": "cavalry",
+    "age": 1,
+    "hp": 100,
+    "attack": [200, 250, 300, 350],
+    "defense": [280, 320, 360, 400],
+    "movement": 10,
+    "sight": 7,
+    "range": 1,
+    "attack_bonus": {"buildings": 0.5, "infantry": 1.33, "ranged": 1.33},
+    "special_abilities": ["plains_charge"],
+    "cost": [null, null, {"food": 750, "gold": 750}, {"food": 1000, "gold": 1000}]
+  },
+  "joan_of_arc": {
+    "faction": "franks",
+    "type": "infantry",
+    "age": 1,
+    "hp": 100,
+    "attack": [200, 250, 300, 350],
+    "defense": [350, 400, 450, 500],
+    "movement": 7,
+    "sight": 7,
+    "range": 1,
+    "attack_bonus": {"buildings": 1.33, "siege": 1.33},
+    "special_abilities": [],
+    "cost": [null, null, {"food": 750, "gold": 750}, {"food": 1000, "gold": 1000}]
+  },
+  "saladin": {
+    "faction": "saracens",
+    "type": "cavalry",
+    "age": 1,
+    "hp": 100,
+    "attack": [180, 225, 270, 315],
+    "defense": [280, 320, 360, 450],
+    "movement": 10,
+    "sight": 7,
+    "range": 1,
+    "attack_bonus": {"buildings": 0.5, "infantry": 1.33, "ranged": 1.33},
+    "special_abilities": ["desert_charge", "scares_horses"],
+    "cost": [null, null, {"food": 750, "gold": 750}, {"food": 1000, "gold": 1000}]
+  },
+  "genghis_khan": {
+    "faction": "mongols",
+    "type": "archer",
+    "age": 1,
+    "hp": 100,
+    "attack": [140, 175, 245, 245],
+    "defense": [245, 280, 350, 350],
+    "movement": 10,
+    "sight": 7,
+    "range": 2,
+    "attack_bonus": {"buildings": 0.5},
+    "special_abilities": ["first_strike"],
+    "cost": [null, null, {"food": 750, "gold": 750}, {"food": 1000, "gold": 1000}]
+  },
+  "minamoto_yoshitsune": {
+    "faction": "japanese",
+    "type": "infantry",
+    "age": 1,
+    "hp": 100,
+    "attack": [160, 200, 240, 280],
+    "defense": [315, 360, 405, 450],
+    "movement": 7,
+    "sight": 7,
+    "range": 1,
+    "attack_bonus": {"buildings": 1.33, "siege": 1.33},
+    "special_abilities": ["anti_cavalry"],
+    "cost": [null, null, {"food": 750, "gold": 750}, {"food": 1000, "gold": 1000}]
+  }
+}

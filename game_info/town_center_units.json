@@ -1,0 +1,14 @@
+{
+  "villager": {
+    "age": 1,
+    "hp": 100,
+    "attack": 50,
+    "defense": 50,
+    "movement": 7,
+    "sight": 7,
+    "range": 1,
+    "attack_bonus": {"buildings": 1.33, "siege": 1.33},
+    "special_abilities": ["build", "repair", "demolish"],
+    "cost": {"food": 100, "gold": 100}
+  }
+}

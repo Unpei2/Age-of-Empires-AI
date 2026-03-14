@@ -1,62 +1,122 @@
 {
-    "archer": {
-        "attack": -1,
-        "defense": -1,
-        "cost": {"food": -1, "wood": -1},
-        "age": 2
-    },
-    "skirmisher": {
-        "attack": -1,
-        "defense": -1,
-        "cost": {"food": -1, "wood": -1},
-        "age": 2
-    },
-    "elite skirmisher": {
-        "attack": -1,
-        "defense": -1,
-        "cost": {"food": -1, "wood": -1},
-        "age": 3
-    },
-    "crossbowman": {
-        "attack": -1,
-        "defense": -1,
-        "cost": {"food": -1, "wood": -1},
-        "age": 3
-    },
-    "horse archer": {
-        "attack": -1,
-        "defense": -1,
-        "cost": {"food": -1, "wood": -1},
-        "age": 3
-    },
-    "elite archer": {
-        "attack": -1,
-        "defense": -1,
-        "cost": {"food": -1, "wood": -1},
-        "age": 4
-    },
-    "expert skirmisher": {
-        "attack": -1,
-        "defense": -1,
-        "cost": {"food": -1, "wood": -1},
-        "age": 4
-    },
-    "arbalest": {
-        "attack": -1,
-        "defense": -1,
-        "cost": {"food": -1, "wood": -1},
-        "age": 4
-    },
-    "heavy horse archer": {
-        "attack": -1,
-        "defense": -1,
-        "cost": {"food": -1, "wood": -1},
-        "age": 4
-    },
-    "hand cannoneer": {
-        "attack": -1,
-        "defense": -1,
-        "cost": {"food": -1, "wood": -1},
-        "age": 4
-    }
+  "archer": {
+    "age": 2,
+    "hp": 100,
+    "attack": 100,
+    "defense": 100,
+    "movement": 7,
+    "sight": 7,
+    "range": 3,
+    "attack_bonus": {"buildings": 0.5},
+    "special_abilities": [],
+    "cost": {"food": 105, "gold": 45}
+  },
+  "skirmisher": {
+    "age": 2,
+    "hp": 100,
+    "attack": 110,
+    "defense": 110,
+    "movement": 7,
+    "sight": 7,
+    "range": 2,
+    "attack_bonus": {"buildings": 0.5},
+    "special_abilities": ["skirmish"],
+    "cost": {"food": 95, "gold": 40}
+  },
+  "elite_skirmisher": {
+    "age": 3,
+    "hp": 100,
+    "attack": 150,
+    "defense": 150,
+    "movement": 7,
+    "sight": 7,
+    "range": 1,
+    "attack_bonus": {"buildings": 0.5},
+    "special_abilities": ["skirmish"],
+    "cost": {"food": 125, "gold": 50}
+  },
+  "crossbowman": {
+    "age": 3,
+    "hp": 100,
+    "attack": 200,
+    "defense": 175,
+    "movement": 7,
+    "sight": 7,
+    "range": 3,
+    "attack_bonus": {"buildings": 0.5},
+    "special_abilities": ["no_move_and_attack"],
+    "cost": {"food": 125, "gold": 50}
+  },
+  "horse_archer": {
+    "age": 3,
+    "hp": 100,
+    "attack": 150,
+    "defense": 150,
+    "movement": 10,
+    "sight": 7,
+    "range": 2,
+    "attack_bonus": {"buildings": 0.5},
+    "special_abilities": [],
+    "cost": {"food": 125, "gold": 50}
+  },
+  "elite_archer": {
+    "age": 4,
+    "hp": 100,
+    "attack": 200,
+    "defense": 200,
+    "movement": 7,
+    "sight": 7,
+    "range": 3,
+    "attack_bonus": {"buildings": 0.5},
+    "special_abilities": [],
+    "cost": {"food": 190, "gold": 75}
+  },
+  "expert_skirmisher": {
+    "age": 4,
+    "hp": 100,
+    "attack": 190,
+    "defense": 190,
+    "movement": 7,
+    "sight": 7,
+    "range": 2,
+    "attack_bonus": {"buildings": 0.5},
+    "special_abilities": ["skirmish"],
+    "cost": {"food": 145, "gold": 55}
+  },
+  "arbalest": {
+    "age": 4,
+    "hp": 100,
+    "attack": 250,
+    "defense": 225,
+    "movement": 7,
+    "sight": 7,
+    "range": 3,
+    "attack_bonus": {"buildings": 0.5},
+    "special_abilities": ["no_move_and_attack"],
+    "cost": {"food": 165, "gold": 60}
+  },
+  "heavy_horse_archer": {
+    "age": 4,
+    "hp": 100,
+    "attack": 200,
+    "defense": 200,
+    "movement": 10,
+    "sight": 7,
+    "range": 2,
+    "attack_bonus": {"buildings": 0.5},
+    "special_abilities": [],
+    "cost": {"food": 165, "gold": 60}
+  },
+  "hand_cannoneer": {
+    "age": 4,
+    "hp": 100,
+    "attack": 300,
+    "defense": 300,
+    "movement": 7,
+    "sight": 7,
+    "range": 1,
+    "attack_bonus": {"buildings": 0.5},
+    "special_abilities": ["no_move_and_attack"],
+    "cost": {"food": 190, "gold": 75}
+  }
 }

@@ -1,0 +1,26 @@
+{
+  "monk": {
+    "age": 3,
+    "hp": 100,
+    "attack": 50,
+    "defense": 150,
+    "movement": 9,
+    "sight": 9,
+    "range": 1,
+    "attack_bonus": {"buildings": 1.33, "siege": 1.33},
+    "special_abilities": ["heal", "convert", "capture_relic"],
+    "cost": {"food": 50, "gold": 155}
+  },
+  "elite_monk": {
+    "age": 4,
+    "hp": 100,
+    "attack": 50,
+    "defense": 200,
+    "movement": 9,
+    "sight": 7,
+    "range": 2,
+    "attack_bonus": {"buildings": 1.33, "siege": 1.33},
+    "special_abilities": ["heal", "convert", "capture_relic"],
+    "cost": {"food": 60, "gold": 205}
+  }
+}

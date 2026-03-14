@@ -1,74 +1,146 @@
 {
-    "celtic woad raider": {
-        "attack": -1,
-        "defense": -1,
-        "cost": {"food": -1, "wood": -1},
-        "age": 3
-    },
-    "viking berserker": {
-        "attack": -1,
-        "defense": -1,
-        "cost": {"food": -1, "wood": -1},
-        "age": 3
-    },
-    "knight templar": {
-        "attack": -1,
-        "defense": -1,
-        "cost": {"food": -1, "wood": -1},
-        "age": 3
-    },
-    "turkish janissary": {
-        "attack": -1,
-        "defense": -1,
-        "cost": {"food": -1, "wood": -1},
-        "age": 3
-    },
-    "persian war elephant": {
-        "attack": -1,
-        "defense": -1,
-        "cost": {"food": -1, "wood": -1},
-        "age": 3
-    },
-    "chinese chu ko nu": {
-        "attack": -1,
-        "defense": -1,
-        "cost": {"food": -1, "wood": -1},
-        "age": 3
-    },
-    "elite woad raider": {
-        "attack": -1,
-        "defense": -1,
-        "cost": {"food": -1, "wood": -1},
-        "age": 4
-    },
-    "elite berserker": {
-        "attack": -1,
-        "defense": -1,
-        "cost": {"food": -1, "wood": -1},
-        "age": 4
-    },
-    "elite knight templar": {
-        "attack": -1,
-        "defense": -1,
-        "cost": {"food": -1, "wood": -1},
-        "age": 4
-    },
-    "elite janissary": {
-        "attack": -1,
-        "defense": -1,
-        "cost": {"food": -1, "wood": -1},
-        "age": 4
-    },
-    "elite war elephant": {
-        "attack": -1,
-        "defense": -1,
-        "cost": {"food": -1, "wood": -1},
-        "age": 4
-    },
-    "elite chu ko nu": {
-        "attack": -1,
-        "defense": -1,
-        "cost": {"food": -1, "wood": -1},
-        "age": 4
-    }
+  "celtic_woad_raider": {
+    "age": 3,
+    "hp": 100,
+    "attack": 200,
+    "defense": 200,
+    "movement": 9,
+    "sight": 7,
+    "range": 1,
+    "attack_bonus": {"buildings": 1.33, "siege": 1.33},
+    "special_abilities": ["causes_fear"],
+    "cost": {"food": 200, "gold": 115}
+  },
+  "viking_berserker": {
+    "age": 3,
+    "hp": 100,
+    "attack": 200,
+    "defense": 200,
+    "movement": 7,
+    "sight": 7,
+    "range": 1,
+    "attack_bonus": {"buildings": 1.33, "siege": 1.33},
+    "special_abilities": ["frenzy"],
+    "cost": {"food": 170, "gold": 105}
+  },
+  "knight_templar": {
+    "age": 3,
+    "hp": 100,
+    "attack": 200,
+    "defense": 200,
+    "movement": 10,
+    "sight": 7,
+    "range": 1,
+    "attack_bonus": {"buildings": 0.5, "infantry": 1.33, "ranged": 1.33},
+    "special_abilities": ["plains_charge", "zeal"],
+    "cost": {"food": 215, "gold": 105}
+  },
+  "turkish_janissary": {
+    "age": 3,
+    "hp": 100,
+    "attack": 250,
+    "defense": 175,
+    "movement": 7,
+    "sight": 7,
+    "range": 3,
+    "attack_bonus": {"buildings": 0.5},
+    "special_abilities": ["no_move_and_attack"],
+    "cost": {"food": 190, "gold": 100}
+  },
+  "persian_war_elephant": {
+    "age": 3,
+    "hp": 100,
+    "attack": 200,
+    "defense": 250,
+    "movement": 7,
+    "sight": 7,
+    "range": 1,
+    "attack_bonus": {"buildings": 0.5, "infantry": 1.33, "ranged": 1.33},
+    "special_abilities": ["causes_fear"],
+    "cost": {"food": 210, "gold": 105}
+  },
+  "chinese_chu_ko_nu": {
+    "age": 3,
+    "hp": 100,
+    "attack": 150,
+    "defense": 150,
+    "movement": 7,
+    "sight": 7,
+    "range": 1,
+    "attack_bonus": {"buildings": 0.5, "infantry": 1.33, "ranged": 1.33},
+    "special_abilities": ["rapid_fire", "no_move_and_attack"],
+    "cost": {"food": 125, "gold": 105}
+  },
+  "elite_woad_raider": {
+    "age": 4,
+    "hp": 100,
+    "attack": 250,
+    "defense": 250,
+    "movement": 9,
+    "sight": 7,
+    "range": 1,
+    "attack_bonus": {"buildings": 1.33, "siege": 1.33},
+    "special_abilities": ["causes_fear"],
+    "cost": {"food": 260, "gold": 100}
+  },
+  "elite_berserker": {
+    "age": 4,
+    "hp": 100,
+    "attack": 250,
+    "defense": 250,
+    "movement": 7,
+    "sight": 7,
+    "range": 1,
+    "attack_bonus": {"buildings": 1.33, "siege": 1.33},
+    "special_abilities": ["frenzy"],
+    "cost": {"food": 220, "gold": 90}
+  },
+  "elite_knight_templar": {
+    "age": 4,
+    "hp": 100,
+    "attack": 250,
+    "defense": 250,
+    "movement": 10,
+    "sight": 7,
+    "range": 1,
+    "attack_bonus": {"buildings": 0.5, "infantry": 1.33, "ranged": 1.33},
+    "special_abilities": ["plains_charge", "zeal"],
+    "cost": {"food": 285, "gold": 85}
+  },
+  "elite_janissary": {
+    "age": 4,
+    "hp": 100,
+    "attack": 300,
+    "defense": 225,
+    "movement": 7,
+    "sight": 7,
+    "range": 3,
+    "attack_bonus": {"buildings": 0.5},
+    "special_abilities": ["no_move_and_attack"],
+    "cost": {"food": 190, "gold": 100}
+  },
+  "elite_war_elephant": {
+    "age": 4,
+    "hp": 100,
+    "attack": 250,
+    "defense": 300,
+    "movement": 8,
+    "sight": 7,
+    "range": 1,
+    "attack_bonus": {"buildings": 0.5, "infantry": 1.33, "ranged": 1.33},
+    "special_abilities": ["causes_fear"],
+    "cost": {"food": 275, "gold": 85}
+  },
+  "elite_chu_ko_nu": {
+    "age": 4,
+    "hp": 100,
+    "attack": 200,
+    "defense": 200,
+    "movement": 7,
+    "sight": 7,
+    "range": 1,
+    "attack_bonus": {"buildings": 0.5},
+    "special_abilities": ["rapid_fire", "no_move_and_attack"],
+    "cost": {"food": 165, "gold": 85}
+  }
 }

@@ -1,8 +1,0 @@
-{
-    "villager": {
-        "attack": -1,
-        "defense": -1,
-        "cost": {"food": -1, "wood": -1},
-        "age": 1
-    }
-}

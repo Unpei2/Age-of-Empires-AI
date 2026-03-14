@@ -1,0 +1,156 @@
+{
+  "plains": {
+    "move_cost": 2,
+    "sight_cost": 2,
+    "defense_bonus": 1.0,
+    "range_bonus": 0,
+    "sight_bonus": 0,
+    "buildable": true,
+    "siege_passable": true,
+    "cavalry_passable": true,
+    "charge_bonus": ["plains_charge"]
+  },
+  "plains_road": {
+    "move_cost": 1,
+    "sight_cost": 2,
+    "defense_bonus": 1.0,
+    "range_bonus": 0,
+    "sight_bonus": 0,
+    "buildable": true,
+    "siege_passable": true,
+    "cavalry_passable": true,
+    "charge_bonus": ["plains_charge"]
+  },
+  "desert": {
+    "move_cost": 2,
+    "sight_cost": 2,
+    "defense_bonus": 1.0,
+    "range_bonus": 0,
+    "sight_bonus": 0,
+    "buildable": true,
+    "siege_passable": true,
+    "cavalry_passable": true,
+    "charge_bonus": ["desert_charge"]
+  },
+  "desert_road": {
+    "move_cost": 1,
+    "sight_cost": 2,
+    "defense_bonus": 1.0,
+    "range_bonus": 0,
+    "sight_bonus": 0,
+    "buildable": true,
+    "siege_passable": true,
+    "cavalry_passable": true,
+    "charge_bonus": ["desert_charge"]
+  },
+  "hills": {
+    "move_cost": 3,
+    "sight_cost": 2,
+    "defense_bonus": 1.2,
+    "range_bonus": 1,
+    "sight_bonus": 2,
+    "buildable": true,
+    "siege_passable": true,
+    "cavalry_passable": true,
+    "charge_bonus": []
+  },
+  "hills_road": {
+    "move_cost": 1,
+    "sight_cost": 2,
+    "defense_bonus": 1.2,
+    "range_bonus": 1,
+    "sight_bonus": 2,
+    "buildable": true,
+    "siege_passable": true,
+    "cavalry_passable": true,
+    "charge_bonus": []
+  },
+  "forest": {
+    "move_cost": 3,
+    "sight_cost": 3,
+    "defense_bonus": 1.2,
+    "range_bonus": -1,
+    "sight_bonus": 0,
+    "buildable": true,
+    "siege_passable": true,
+    "cavalry_passable": true,
+    "charge_bonus": []
+  },
+  "mountain": {
+    "move_cost": 4,
+    "sight_cost": 3,
+    "defense_bonus": 1.4,
+    "range_bonus": 1,
+    "sight_bonus": 4,
+    "buildable": false,
+    "siege_passable": false,
+    "cavalry_passable": true,
+    "charge_bonus": []
+  },
+  "mountain_road": {
+    "move_cost": 1,
+    "sight_cost": 3,
+    "defense_bonus": 1.4,
+    "range_bonus": 1,
+    "sight_bonus": 4,
+    "buildable": false,
+    "siege_passable": true,
+    "cavalry_passable": true,
+    "charge_bonus": []
+  },
+  "bridge": {
+    "move_cost": 2,
+    "sight_cost": 2,
+    "defense_bonus": 1.4,
+    "range_bonus": 0,
+    "sight_bonus": 0,
+    "buildable": false,
+    "siege_passable": true,
+    "cavalry_passable": true,
+    "charge_bonus": []
+  },
+  "ford": {
+    "move_cost": 3,
+    "sight_cost": 2,
+    "defense_bonus": 1.2,
+    "range_bonus": 0,
+    "sight_bonus": 0,
+    "buildable": false,
+    "siege_passable": false,
+    "cavalry_passable": true,
+    "charge_bonus": []
+  },
+  "swamp": {
+    "move_cost": 3,
+    "sight_cost": 2,
+    "defense_bonus": 1.2,
+    "range_bonus": -1,
+    "sight_bonus": 0,
+    "buildable": false,
+    "siege_passable": false,
+    "cavalry_passable": false,
+    "charge_bonus": []
+  },
+  "river": {
+    "move_cost": null,
+    "sight_cost": 2,
+    "defense_bonus": 1.0,
+    "range_bonus": 0,
+    "sight_bonus": 0,
+    "buildable": false,
+    "siege_passable": false,
+    "cavalry_passable": false,
+    "charge_bonus": []
+  },
+  "ocean": {
+    "move_cost": null,
+    "sight_cost": 2,
+    "defense_bonus": 1.0,
+    "range_bonus": -1,
+    "sight_bonus": 0,
+    "buildable": false,
+    "siege_passable": false,
+    "cavalry_passable": false,
+    "charge_bonus": []
+  }
+}

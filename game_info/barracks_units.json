@@ -32,7 +32,7 @@
     "sight": 7,
     "range": 1,
     "attack_bonus": {"buildings": 1.33, "siege": 1.33},
-    "special_abilities": {"Anti_Cavalry": {"attack_mult": 1.83, "defense_mult": 1.83}, "First_Strike": true},
+    "special_abilities": ["anti_cavalry", "first_strike"],
     "cost": {"food": 115, "gold": 40}
   },
   "longswordsman": {
@@ -56,7 +56,7 @@
     "sight": 7,
     "range": 1,
     "attack_bonus": {"buildings": 1.33, "siege": 1.33},
-    "special_abilities": {"Anti_Cavalry": {"attack_mult": 1.83, "defense_mult": 1.83}, "First_Strike": true},
+    "special_abilities": ["anti_cavalry", "first_strike"],
     "cost": {"food": 160, "gold": 55}
   },
   "two-handed_swordsman": {
@@ -80,7 +80,7 @@
     "sight": 7,
     "range": 1,
     "attack_bonus": {"buildings": 1.33, "siege": 1.33},
-    "special_abilities": {"Anti_Cavalry": {"attack_mult": 1.83, "defense_mult": 1.83}, "First_Strike": true},
+    "special_abilities": ["anti_cavalry", "first_strike"],
     "cost": {"food": 215, "gold": 60}
   },
   "champion": {
