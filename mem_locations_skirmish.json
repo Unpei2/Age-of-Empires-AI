@@ -1,0 +1,28 @@
+{
+    "gold_gain": "0233EC5C",
+    "gold": "0233EC60",
+    "wheat_gain": "0233EC64",
+    "wheat": "0233EC68",
+    "starting_militia": "022E5260",
+    "genghis_hp": "022E4FF4",
+
+    "genghis_x_value": "022E4FA8",
+    "genghis_y_value": "022E4FAC",
+
+    "other_x": "022E5024",
+    "other_y": "022E5028",
+    "genghis_att": "022E4FFC",
+    "genghis_def": "022E5000",
+
+    "genghis_y": 3,
+    "genghis_x": 17,
+
+    "militia_x": "022E5214",
+    "militia_y": "022E5218",
+    
+    "attacker_hp": "021C14B0",
+    "attacked_hp": "021C14B4",
+
+
+    "saladin_hp": "022E4674"
+}
