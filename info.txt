@@ -1,8 +1,10 @@
-hp is stored in 1 byte
+hp is stored in 2 byte
 
-tile difference value is possibly 256 (need to confirm for skirmish mode)
+tile difference value is 256
 
-att , defense, and location values are stored as 4 bytes
+att and defense are 2 bytes
+
+location values are stored as 2 bytes
 
 this skirmish map is 32x32
 

@@ -1,38 +1,46 @@
 {
-    "attacker_hp": "021C14B0",
-    "attacked_hp": "021C14B4",
-
-    "gold_gain": "0233EC5C",
-    "gold": "0233EC60",
-    "wheat_gain": "0233EC64",
-    "wheat": "0233EC68",
-
-
-    "starting_militia": "022E5260",
+    "genghis_x": "022E4FA8",
+    "genghis_y": "022E4FAC",
     "genghis_hp": "022E4FF4",
-
-    "genghis_x_value": "022E4FA8",
-    "genghis_y_value": "022E4FAC",
-
-    "other_x": "022E5024",
-    "other_y": "022E5028",
     "genghis_att": "022E4FFC",
     "genghis_def": "022E5000",
+
     "militia_x": "022E5214",
     "militia_y": "022E5218",
-    
-    "villager1_x1": "022E5324",
-    "villager1_x2": "022E53A0",
-    "villager1_y1": "022E5328",
-    "villager1_y2": "022E53A4",
+    "militia_hp": "022E5260",
+    "militia_att": "022E5268",
+    "militia_def": "022E526C",
+
+    "villager_x": "022E5324",
+    "villager_y": "022E5328", 
+    "villager_hp": "022E5370",
+    "villager_att": "022E5378",
+    "villager_def": "022E537C",
+
+    "trained_villager_x": "0226BE84",
+    "trained_villager_y": "0226BE88",
+    "trained_villager_hp": "0226BED0",
+    "trained_villager_att": "0226BED8",
+    "trained_villager_def": "0226BEDC",
+
+    "another_trained_villager_x": "0226FE2C",
+    "another_trained_villager_y": "0226FE30",
+    "another_trained_villager_hp": "0226FE78",
+    "another_trained_villager_att": "0226FE80",
+    "another_trained_villager_def": "0226FE84",
+
+    "trained_cavalry_x": "0235DD7C",
+    "trained_cavalry_y": "0235DD80",
+    "trained_cavalry_hp": "0235DDC8",
+    "trained_cavalry_att": "0235DDD0",
+    "trained_cavalry_def": "0235DDD4",
+
+
+    "gold": "0233EC60",
+    "wheat": "0233EC68",
+    "gold_gain": "0233EC5C",
+    "wheat_gain": "0233EC64",
 
     "selected_x": "02386E58",
-
-
-    "villager2_x1": "0226BE84",
-    "villager2_x2": "0226BF00",
-    "villager2_y1": "0226BE88",
-    "villager2_y2": "0226BF04",
-
-    "saladin_hp": "022E4674"
+    "selected_y": "02386E5C"
 }
