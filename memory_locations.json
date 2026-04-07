@@ -1,18 +1,27 @@
 {
-    "gold": "0233E0BC",
-    "wheat": "0233E0C4",
 
-    "daily_gold_gain": "0234F484",
-    "gold_laptop": "0234F488",
-    "daily_wheat_gain": "0234F48C",
-    "wheat_laptop": "0234F490", 
-    
-    "genghis_x": "022ED400",
-    "genghis_y ": "022ED404",
+
     "change in bytes per square": 256,
-    "genghis_hp": "022ED450",
-    "genghis_def": "022ED454",
-    "genghis_att": "022ED458",
+
+
+    "gold_gain": "0233EAE8",
+    "gold": "0233EAEC",
+    "wheat_gain": "0233EAF0",
+    "wheat": "0233EAF4",
+    
+    "genghis_x": "022E5150",
+    "genghis_y": "022E5154",
+    "genghis_hp": "022E519C",
+    "genghis_att": "022E51A4",
+    "genghis_def": "022E51A8",
+
+
+    "starting_villager_x": "022E54CC",
+    "starting_villager_y": "022E54D0",
+    "starting_villager_hp": "022E5518",
+    
+
+
     "militia_1_x": "022ECB44",
     "miliita_1_actual_x": "022ECBC0",
 
